@@ -46,6 +46,7 @@ class PiperTTSPlugin(TTS):
                'pavoque-low',
                'ramona-low',
                'thorsten-low'],
+               'thorsten-medium'],
         'el-gr': ['rapunzelina-low'],
         'en-gb': ['alan-low', 'southern_english_female-low'],
         'en-us': ['amy-low',
@@ -121,6 +122,7 @@ class PiperTTSPlugin(TTS):
         'southern_english_female-low': 'https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-en-gb-southern_english_female-low.tar.gz',
         'talesyntese-medium': 'https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-no-talesyntese-medium.tar.gz',
         'thorsten-low': 'https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-de-thorsten-low.tar.gz',
+        'thorsten-medium': 'https://github.com/PocketMiner82/Assets/releases/download/1/voice-de-thorsten-medium.tar.gz'
         'upc_ona-x-low': 'https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-ca-upc_ona-x-low.tar.gz',
         'upc_pau-x-low': 'https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-ca-upc_pau-x-low.tar.gz',
         'vos-x-low': 'https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-vi-vivos-x-low.tar.gz'
