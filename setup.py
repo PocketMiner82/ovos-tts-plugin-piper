@@ -57,7 +57,7 @@ setup(
     name='ovos-tts-plugin-piper',
     version=get_version(),
     description='piper tts plugin for OpenVoiceOS',
-    url='https://github.com/OpenVoiceOS/ovos-tts-plugin-piper',
+    url='https://github.com/PocketMiner82/ovos-tts-plugin-piper',
     author='JarbasAi',
     author_email='jarbasai@mailfence.com',
     license='Apache-2.0',
