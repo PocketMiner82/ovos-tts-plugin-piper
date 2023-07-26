@@ -136,8 +136,8 @@ class PiperTTSPlugin(TTS):
                 # alan pope is the default english voice of mycroft/OVOS
                 self.voice = "alan-low"
             else:
-                self.voice = self.lang2voices.get(lang) or \
-                             self.lang2voices.get(lang.split("-"[0])) or \
+                self.voice = self.lang2voices.get(lang)[0] or \
+                             self.lang2voices.get(lang.split("-"[0]))[0] or \
                              "alan-low"
 
         self.use_cuda = self.config.get("use_cuda", False)
